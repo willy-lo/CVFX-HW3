@@ -24,7 +24,7 @@ dome:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/dome(mix).png)
 
-                            before                                                           after
+                            before                                                         after
 
 door:
 
@@ -53,8 +53,7 @@ tree:
 原圖:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E5%8E%9F%E5%9C%96(2).PNG)
-
-                            before                                                           after
+                         
 
 brick:
 
@@ -72,7 +71,7 @@ dome:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/dome(2_mix).png)
 
-                            before                                                           after
+                            before                                                         after
 
 door:
 
