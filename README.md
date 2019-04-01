@@ -12,7 +12,7 @@ brick:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/brick(mix).png)
 
-before                                              after
+                            before                                                           after
 
 cloud:
 
