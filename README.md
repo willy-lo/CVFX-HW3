@@ -18,54 +18,82 @@ cloud:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/cloud(mix).png)
 
+                            before                                                           after
+
 dome:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/dome(mix).png)
+
+                            before                                                           after
 
 door:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/door(mix).png)
 
+                            before                                                           after
+
 grass:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/grass(mix).png)
+
+                            before                                                           after
 
 sky:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/sky(mix).png)
 
+                            before                                                           after
+
 tree:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tree(mix).png)
+
+                            before                                                           after
 
 原圖:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E5%8E%9F%E5%9C%96(2).PNG)
 
+                            before                                                           after
+
 brick:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/brick(2_mix).png)
+
+                            before                                                           after
 
 cloud:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/cloud(2_mix).png)
 
+                            before                                                           after
+
 dome:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/dome(2_mix).png)
+
+                            before                                                           after
 
 door:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/door(2_mix).png)
 
+                            before                                                           after
+
 grass:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/grass(2_mix).png)
+
+                            before                                                           after
 
 sky:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/sky(2_mix).png)
 
+                            before                                                           after
+
 tree:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tree(2_mix).png)
+
+                            before                                                           after
