@@ -12,6 +12,8 @@ brick:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/brick(mix).png)
 
+before                                              after
+
 cloud:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/cloud(mix).png)
