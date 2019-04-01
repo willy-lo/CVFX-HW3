@@ -8,6 +8,8 @@
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E5%8E%9F%E6%AA%94.PNG)
 
+結果:
+
 brick:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/brick(mix).png)
@@ -53,7 +55,8 @@ tree:
 原圖:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E5%8E%9F%E5%9C%96(2).PNG)
-                         
+   
+結果:   
 
 brick:
 
@@ -96,3 +99,7 @@ tree:
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tree(2_mix).png)
 
                             before                                                           after
+
+2.Dissect GAN model and analyze
+
+3.Compare with other method
