@@ -46,7 +46,7 @@ sky:
 
 tree:
 
-![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tree(mix).png)
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tree(mix).jpg)
 
                             before                                                           after
 
