@@ -153,6 +153,27 @@ Intervention 介入:
 整體想法:
 我們要先透過 Dissection 得知哪些 Unit 是與該類別相關，再經由 Intervention 明白改動這個 Unit 到底對最終輸出的該類別有著多大的影響。因此我認為 Dissection 與 Intervention 的關係可以用 “方向” 與 “能量大小” 的關係作比喻。
 
+方法:
+
+此文提出的架構如下，上半部為 Dissection 解開，下半部為 Intervention 介入
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%965.JPG)
+
+先看 G 的架構，對於圖像生成的任務，通常會輸入雜訊 z，然後生成圖片 x，而之所以可以生成 x 是因為 z 再經過一層一層的 layer 慢慢的轉變成圖片，這邊的想法是我們提取出第 r 層，來探討他每個 Unit 的 Feature map，而他的 Feature map 會繼續影響著後續的 f(layers) 最終生成圖片。
+
+而我們的最終目的是希望找出哪些 Unit 是對結果有顯著影響的。這邊我們可以這樣想像，假設我們要生出辦公室的場景，那可能有些 Unit 各自負責桌子、椅子、人。
+
+但是剛好這張圖片生成出來後，只有桌子和椅子，我們希望找到著重於桌子和椅子的 Unit，這樣就能對他做移除/修改的動作。
+
+因此我們定義下面這公式
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%966.JPG)
+
+參數定義：
+r : 某層 Layer， 可看架構圖 generator(G) 的部分
+U : 哪些 Unit 是對目前想要操作的類別有影響的，舉例我可能想要修改椅子而已，我們要找出哪些 units 對椅子有影響。
+U- : U 的補數，即為我們不感興趣的 units.
+
 參考資料:
 https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-and-understanding-generative-adversarial-networks-37125f07d1cd
 
