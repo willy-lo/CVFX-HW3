@@ -14,7 +14,7 @@
 
 
 
-1.Generate images with GANPaint:
+Generate images with GANPaint:
 
 我們這組選了兩張照片來做所有情況的比較
 
@@ -114,9 +114,8 @@ tree:
 
                             before                                                           after
 
-2.
 
-簡介
+簡單概念的介紹:
 
 GAN 近年來發展得非常火熱，但 GAN 伴隨著幾個問題 e.g., 生成的品質不夠好， 訓練不夠穩定。
 
