@@ -231,21 +231,47 @@ https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-an
 
 Dissect GAN model and analyze
 
+我們根據我們跑出來的圖分別在layer1,layer4,跟layer7個選擇了三張圖來觀察
+
+layer1:
+
+window:
+
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-28.png)
+
+table:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-133.png)
 
+floor:
+
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-264.png)
+
+layer4:
+
+floor:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-11.png)
 
+table:
+
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-390.png)
+
+window:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-510.png)
 
+layer7:
+
+window:
+
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-44.png)
 
+cutains:
+
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-206.png)
+
+table:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-247.png)
 
