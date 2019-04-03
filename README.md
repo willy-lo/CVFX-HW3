@@ -182,3 +182,13 @@ https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-an
 4.Compare with other method
 
 我們所用的方法是利用photoshop來做的,發現打網球的那張,效果比較沒那麼好,但是其他兩張效果比較起來都很好
+
+(1)第一張我們用的是一堆人在游泳的照片，我們所採用的方法是在photoshop，把每個有人的地方框起來，並且把它拿掉補上附近的顏色，讓他看起來跟原圖就只差人的這個部分，其他都沒受到太大的影響。
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/swim.jpg)
+
+(2)第二張我們用的是一張原本三個人在沙灘上散步的畫面，那我們是將比較遠的那位女性拿掉，如果拿掉比較近一點的那個女生可能會有一點模糊的現象，等等在第三張可以發現，所謂模糊的點。
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/beach.png)
+
+(3)第三張我們所用的圖是一張在打澳網的兩位雙打搭檔在場上的畫面，我是將詹詠然的搭檔去掉，但他們因為有擊掌的畫面，所以當我要把她的搭檔去掉時，會發現手的那個部分沒有辦法完全不影響，因為畫面有重疊再一起，所以會導致模糊點的產生。
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tennis.jpg)
+
