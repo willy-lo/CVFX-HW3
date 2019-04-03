@@ -231,6 +231,24 @@ https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-an
 
 Dissect GAN model and analyze
 
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-28.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-133.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/1-264.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-11.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-390.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/4-510.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-44.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-206.png)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-247.png)
+
 ******************************************************************************************************************************
 
 Compare with other method
