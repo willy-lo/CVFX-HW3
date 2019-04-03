@@ -180,3 +180,5 @@ https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-an
 3.Dissect GAN model and analyze
 
 4.Compare with other method
+
+我們所用的方法是利用photoshop來做的,發現打網球的那張,效果比較沒那麼好,但是其他兩張效果比較起來都很好
