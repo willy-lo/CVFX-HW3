@@ -1,4 +1,15 @@
 # CVFX-HW3
+大綱:
+
+1.Generate images with GANPaint
+
+2.簡單概念的介紹
+
+3.Dissect GAN model and analyze
+
+4.Compare with other method
+
+
 
 1.Generate images with GANPaint:
 
