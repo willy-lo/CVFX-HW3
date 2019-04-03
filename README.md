@@ -187,8 +187,45 @@ r : 某層 Layer， 可看架構圖 generator(G) 的部分
 U : 哪些 Unit 是對目前想要操作的類別有影響的，舉例我可能想要修改椅子而已，我們要找出哪些 units 對椅子有影響。
 U- : U 的補數，即為我們不感興趣的 units.
 
+Dissection 解開:
+此處我們要找到哪些 Unit 對該類別有影響，找尋哪些 Unit 的 Feature maps 與我們 Semantic segmentation 的模型預測出來的 Mask 相近。
+
+而此處使用 IoU 的方式!
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%967.JPG)
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%968.JPG)
+
+參數定義：
+
+↑ : 將 Feature maps Resize 成 x 的大小。
+
+Sc : 給定 x 後，獲得 c 這個類別的 Mask， 架構圖segmentation黃色處。
+
+t : threshold，這部分比較複雜，有興趣的人在自己去了解。
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%969.JPG)
+
+透過這方式，我們可以知道 r 的哪些 Unit 與某個類別有著高度相關性。
+
+不同 layer 之間學習到的特徵不同
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%9610.JPG)
+
+第 1 層我們看到還是會有誤判的情形，而且除了天花板這類別之外，其他的類別都沒學到（可看右半部 Unit class distribution）但是第 4 層學習到最多的類別，可是到第 10 層過後，反而開始學到紋理、邊緣一些細節等等，個人覺得或許是因為這是圖像生成的任務，導致後面的 Layer 會認真學習優化一些細節。
+
+透過視覺化“手動”改善 GAN 扭曲
+
+這部分是我個人覺得這論文最有意思的地方了，我們都知道 GAN 雖然這幾年一直進步，但是 GAN 還是會產生出怪怪的圖片。
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%93%B7%E5%8F%9611.JPG)
+
+那我們可以透過可視化找出扭曲部分所對應的 Unit，可是怎麼找呢？ 他又不能被 Sc 分到一類，因此這邊提出來的方法是先產生 1000 張圖片，然後我們可以看每個 Unit 對應到分數最高的前幾張圖片，透過這種方式我們可以發現有的 Unit 專門產出很奇怪的圖片，那我們就可以手動將該 Unit 的 Feature map “Off”，透過這方式就明顯地將詭異的部分改善了，而作者提出人工將 layer 4 （512個units） 挑出 20 個這種 Unit 將他 Off，只需要 10 分鐘，換句話說，只要10分鐘效能立即改善，你知道訓練一個 GAN 要好幾天嗎?
+而現在只要 10 分鐘就基於現有的模型進行優化。
+
 參考資料:
 https://medium.com/@xiaosean5408/gan-dissection%E7%B0%A1%E4%BB%8B-visualizing-and-understanding-generative-adversarial-networks-37125f07d1cd
+
 
 Dissect GAN model and analyze
 
