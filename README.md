@@ -275,6 +275,13 @@ table:
 
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/7-247.png)
 
+討論:
+從這幾張圖來觀察,我發現當layer較高時,框出來的效果會比較好,layer較低時,感覺框的沒那麼準,或者說框的範圍比較大
+
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/bad.PNG)
+
+討論:我們這組覺得用這個去調他的變化,效果沒有那麼的好,所以在後面我們用到了photoshop的方法去比較說,哪個方法可能會比較好
+
 ******************************************************************************************************************************
 
 Compare with other method
