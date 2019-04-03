@@ -248,3 +248,6 @@ Compare with other method
 
 (4)第四張我們所用的是一張在非洲草地的一張圖，我們主要是將長頸鹿從圖片中移除，可以發現拿掉完以後，那塊部分，完全不受影響，我覺得這張算是四張當中效果最好的一張。
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/forest.jpg)
+
+比較圖:
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/%E6%AF%94%E8%BC%83%E5%9C%96.png)
