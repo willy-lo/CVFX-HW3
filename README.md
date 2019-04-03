@@ -235,7 +235,7 @@ Dissect GAN model and analyze
 
 Compare with other method
 
-我們所用的方法是利用photoshop來做的,發現打網球的那張,效果比較沒那麼好,但是其他兩張效果比較起來都很好
+我們所用的方法是利用photoshop來做的,發現打網球的那張,效果比較沒那麼好,但是其他三張效果比較起來都很好
 
 (1)第一張我們用的是一堆人在游泳的照片，我們所採用的方法是在photoshop，把每個有人的地方框起來，並且把它拿掉補上附近的顏色，讓他看起來跟原圖就只差人的這個部分，其他都沒受到太大的影響。
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/swim.jpg)
@@ -246,3 +246,5 @@ Compare with other method
 (3)第三張我們所用的圖是一張在打澳網的兩位雙打搭檔在場上的畫面，我是將詹詠然的搭檔去掉，但他們因為有擊掌的畫面，所以當我要把她的搭檔去掉時，會發現手的那個部分沒有辦法完全不影響，因為畫面有重疊再一起，所以會導致模糊點的產生。
 ![image](https://github.com/willy-lo/CVFX-HW3/blob/master/tennis.jpg)
 
+(4)第四張我們所用的是一張在非洲草地的一張圖，我們主要是將長頸鹿從圖片中移除，可以發現拿掉完以後，那塊部分，完全不受影響，我覺得這張算是四張當中效果最好的一張。
+![image](https://github.com/willy-lo/CVFX-HW3/blob/master/forest.jpg)
